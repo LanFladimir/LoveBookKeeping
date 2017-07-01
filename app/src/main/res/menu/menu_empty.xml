@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_empty01"
+        android:title="Sign Up"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_empty02"
+        android:title="Sign Up"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_empty03"
+        android:title="Sign Up"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_empty04"
+        android:title="Sign Up"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.fladimir.loversbookkeeping">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".base.BookApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.login.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.AppStartLoadTranslucent"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".activity.main.MainActivity"/>
+        <activity android:name=".activity.we.LoversActivity"/>
+
+        <activity
+            android:name=".activity.splash.SplashActivity"
+            android:theme="@style/AppTheme.AppStartLoadTranslucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--test-->
+        <activity android:name=".activity.test.AdapterSampleActivity"/>
+        <activity android:name=".activity.test.AnimatorSampleActivity"/>
+        <activity android:name=".activity.test.RecyclerViewAnim"/>
+    </application>
+
+</manifest>

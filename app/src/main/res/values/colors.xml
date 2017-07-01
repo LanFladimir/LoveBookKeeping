@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7092BE</color>
+    <color name="colorPrimaryDark">#40658e</color>
+    <color name="colorAccent">#7092BE</color>
+
+    <!--common-->
+    <color name="white">#FFFFFF</color>
+
+    <!--bill-->
+    <color name="bill_out">#ee1131</color>
+    <color name="bill_in">#00e222</color>
+    <color name="bill_tra">#e3e3e3</color>
+
+    <!--login-->
+    <color name="login_indicator">#BE95A3</color>
+    <color name="login_deep">#FE8A97</color>
+    <color name="login_light">#FFA08F</color>
+
+</resources>
